@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pozicionálás</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="pozicio.css" rel="stylesheet" type="text/css"/>
+        <script src="pozicio.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Az elem mozgatásához nyomjon meg egy gombot</h1>
+        <form>
+            <input id="fel" type="button" value="Fel" onclick="pozicio(this)"/>
+            <input id="le" type="button" value="Le" onclick="pozicio(this)"/>
+            <input id="jobb" type="button" value="Jobbra" onclick="pozicio(this)"/>
+            <input id="bal" type="button" value="Balra" onclick="pozicio(this)"/>
+            <input id="elrejt" type="button" value="Elrejt" onclick="pozicio(this)"/>
+            <input id="felfed" type="button" value="Felfed" onclick="pozicio(this)"/>
+        </form>
+        <div id="elem"></div>
+    </body>
+</html>
