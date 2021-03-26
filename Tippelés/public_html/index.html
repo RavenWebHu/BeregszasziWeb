@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Szám tippelés</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="tippeles.js" type="text/javascript"></script>
+    </head>
+    <body style="background-color: lightblue;">
+        <h1>Tippelj egy számot!</h1>
+        <p>A program generál egy véletlenszerű számot 1 és 100 között.<br>Tippelj egy számot, és megmondja hogy elatláltad, vagy nem :)!</p>
+        <form>
+        <table>
+            <tr>
+                <td>Tippelt szám:</td>
+                <td><input type="number" value="" id="szam" required/></td>
+            </tr>
+
+            <tr>
+                <td>Az eredmény:</td>
+                <td><textarea rows="2" cols="25" id="eredmeny" ></textarea></td>
+            </tr>
+            
+            <tr>
+                <td><input id="vizsgal" type="button" value="Tippelek" onclick="tippeles()"/></td>
+            </tr>
+        
+        </table>
+        </form>
+        
+        
+        
+    </body>
+</html>
